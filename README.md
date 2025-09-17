@@ -22,9 +22,11 @@ pip install -r requirements.txt
 ```
 
 ▶️ Usage
+```bash
 python src/pipeline.py --file data/sample_emails.json
-
+```
 Output:
+```bash
 {
   "summary": "Team discussed Q1 sales strategy. Budget increase approved.",
   "actions": [
@@ -32,6 +34,7 @@ Output:
     "Mary to send budget approval email"
   ]
 }
+```
 
 📊 Tech Stack
 
@@ -51,7 +54,7 @@ Testing: pytest
 
  Build Streamlit chat-style UI
 
- ## ⚙️ Step 4: `requirements.txt`
+ ## ⚙️`requirements.txt`
 ```txt
 transformers
 torch
